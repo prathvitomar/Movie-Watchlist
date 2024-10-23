@@ -49,7 +49,8 @@ const router = createBrowserRouter([
   {
     path: '/login',
     element: <Login />,
-  }
+  },
+  { basename: '/Movie-Watchlist' }
 ]);
 
 createRoot(document.getElementById('root')).render(
